@@ -1,0 +1,35 @@
+<settings>
+<servers>
+  <server>
+    <id>raf-raf-packages</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+
+<profiles>
+  <profile>
+    <id>raf-raf-packages</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>raf-raf-packages</id>
+        <url>https://raf-692859936029.d.codeartifact.eu-west-2.amazonaws.com/maven/raf-packages/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+
+<mirrors>
+  <mirror>
+    <id>raf-raf-packages</id>
+    <name>raf-raf-packages</name>
+    <url>https://raf-692859936029.d.codeartifact.eu-west-2.amazonaws.com/maven/raf-packages/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+
+
+</settings>
