@@ -20,3 +20,4 @@ artifacts:
   files:
     - target/raf-web-project.war
   discard-paths: no
+#raf
