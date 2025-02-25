@@ -2,9 +2,9 @@
 
 <body>
 
-<h2>Hello Raf!</h2>
+<h2>Hello Raf/User!</h2>
 
-<p>This is my Cloud Tutorial - web application working! 2</p>
+<p>This is the Cloud Tutorial Complete</p>
 
 </body>
 
