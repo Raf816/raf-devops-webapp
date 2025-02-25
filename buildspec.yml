@@ -19,5 +19,8 @@ phases:
 artifacts:
   files:
     - target/raf-web-project.war
+    - appspec.yml
+    - scripts/**/*
+
   discard-paths: no
 #raf
